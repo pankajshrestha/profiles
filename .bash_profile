@@ -19,7 +19,7 @@ console = Console()
 
 table = Table(show_header=True, header_style='bold magenta')
 
-df = pd.read_csv('$1', index_col=0)
+df = pd.read_csv('$1')
 for col in df.columns:
     table.add_column(col)
 
